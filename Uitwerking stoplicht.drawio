@@ -1,0 +1,168 @@
+<mxfile host="Electron" modified="2024-04-15T08:36:43.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="5_dGffNMOpNtgaTflzMC" version="21.7.5" type="device">
+  <diagram name="Pagina-1" id="tp6zoL1d7CtHx6nph8Nf">
+    <mxGraphModel dx="1195" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-1" target="kJpMf8H8IRo3nC1Xg3RD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-1" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="334" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-2" target="kJpMf8H8IRo3nC1Xg3RD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-2" value="1.&lt;br&gt;Maak de volgende variabalen:&lt;br&gt;Stoplicht: String = &quot;rood&quot;&lt;br&gt;Auto: String" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="240" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-4" target="kJpMf8H8IRo3nC1Xg3RD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-4" value="2.&lt;br&gt;Staat er een auto? (ja/nee)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-10" value="nee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-6" target="kJpMf8H8IRo3nC1Xg3RD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-6" value="3.&lt;br&gt;is het antwoord ja" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-8" value="ja" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-6" target="kJpMf8H8IRo3nC1Xg3RD-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="490" as="sourcePoint" />
+            <mxPoint x="470" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-9" value="4.&lt;br&gt;is het antwoord nee" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-11" value="ja" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-9" target="kJpMf8H8IRo3nC1Xg3RD-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="560" as="sourcePoint" />
+            <mxPoint x="470" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-12" value="nee" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-9" target="kJpMf8H8IRo3nC1Xg3RD-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="740" as="sourcePoint" />
+            <mxPoint x="290" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-13" value="5&lt;br&gt;Verkeerde input, probeer opnieuw" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-13" target="kJpMf8H8IRo3nC1Xg3RD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="500" as="sourcePoint" />
+            <mxPoint x="220" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-17" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-15" target="kJpMf8H8IRo3nC1Xg3RD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-22" value="nee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-15" target="kJpMf8H8IRo3nC1Xg3RD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-15" value="3.1&lt;br&gt;is het stoplicht rood?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-16" target="kJpMf8H8IRo3nC1Xg3RD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-16" value="3.1.1&lt;br&gt;stoplicht wordt groen" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-18" value="6&lt;br&gt;laat de status van het stoplicht zien" style="rounded=0;whiteSpace=wrap;html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-33" target="kJpMf8H8IRo3nC1Xg3RD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-25" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-21" target="kJpMf8H8IRo3nC1Xg3RD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-21" value="3.2&lt;br&gt;is het stoplicht oranje?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-24" value="3.2.1&lt;br&gt;stoplicht wordt rood" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-24" target="kJpMf8H8IRo3nC1Xg3RD-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="550" as="sourcePoint" />
+            <mxPoint x="790" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-31" value="nee" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-21" target="kJpMf8H8IRo3nC1Xg3RD-18">
+          <mxGeometry x="-0.9187" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="760" as="sourcePoint" />
+            <mxPoint x="830" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="710" />
+              <mxPoint x="780" y="710" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-18" target="kJpMf8H8IRo3nC1Xg3RD-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="380" as="sourcePoint" />
+            <mxPoint x="424" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-33" value="7&lt;br&gt;Wacht 5 seconden" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-34" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-36" target="kJpMf8H8IRo3nC1Xg3RD-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-35" value="nee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-36" target="kJpMf8H8IRo3nC1Xg3RD-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-36" value="4.1&lt;br&gt;is het stoplicht groen?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-37" value="4.1.1&lt;br&gt;stoplicht wordt oranje" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-38" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-39" target="kJpMf8H8IRo3nC1Xg3RD-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-39" value="4.2&lt;br&gt;is het stoplicht oranje?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="885" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-40" value="4.2.1&lt;br&gt;stoplicht wordt rood" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-37" target="kJpMf8H8IRo3nC1Xg3RD-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="770" as="sourcePoint" />
+            <mxPoint x="760" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJpMf8H8IRo3nC1Xg3RD-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kJpMf8H8IRo3nC1Xg3RD-40" target="kJpMf8H8IRo3nC1Xg3RD-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="840" as="sourcePoint" />
+            <mxPoint x="1010" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
