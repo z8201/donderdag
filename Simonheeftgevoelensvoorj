@@ -1,0 +1,154 @@
+### Opdracht 2: Bouwen van een programma
+
+#### Processtappen:
+
+1. **Bestudeer Bijlage 2.3 Procesbeschrijvingen:** 
+   - Identificeer welke processen geautomatiseerd kunnen worden.
+
+2. **Pas het bestaande script aan volgens Bijlage 2.11 Vastgesteld Ontwerp:**
+   - Maak gebruik van de variabele `appPath` om de paden te definiëren voor alle bestanden.
+   - Implementeer de wijzigingen zoals beschreven in Bijlage 2.11.
+
+3. **Gebruik de beschikbare VM’s:**
+   - VM1 - Windows Server 2019 (machine: SRV001)
+   - VM2 - Windows 10 Werkstation (machine: PC008)
+
+4. **Voer de stappen uit op PC008:**
+   - Log in op PC008 als Administrator op domein Amerjack.nl.
+   - Bouw het programma op PC008 en maak gebruik van Visual Studio Code of IDLE.
+
+5. **Documenteer de stappen:**
+   - Voeg duidelijke comments toe aan je code om elke stap te beschrijven.
+   - Zorg ervoor dat de comments beschrijven wat de code doet en waarom.
+
+6. **Maak screenshots:**
+   - Documenteer je script met screenshots volgens Bijlage 2.1 Sjabloon verslag script.
+   - Voeg de screenshots toe aan je verslag.
+
+### Uitwerking van de Processtappen
+
+#### Stap 1: Bestudeer Bijlage 2.3 Procesbeschrijvingen
+
+**Wat te doen:**
+1. Open Bijlage 2.3 en lees de procesbeschrijvingen zorgvuldig door.
+2. Identificeer welke processen geautomatiseerd kunnen worden met het KentekenCheck-programma.
+
+**Doel:**
+Het doel van deze stap is om een duidelijk beeld te krijgen van de processen die door het programma moeten worden uitgevoerd en welke geautomatiseerd kunnen worden.
+
+#### Stap 2: Pas het bestaande script aan volgens Bijlage 2.11 Vastgesteld Ontwerp
+
+**Wat te doen:**
+1. Open Bijlage 2.11 en lees de specificaties van het vastgestelde ontwerp.
+2. Pas het bestaande script aan om te voldoen aan deze specificaties.
+3. Gebruik de variabele `appPath` om de paden voor alle bestanden te definiëren.
+
+**Doel:**
+Het doel van deze stap is om ervoor te zorgen dat het script correct is aangepast volgens de specificaties van het vastgestelde ontwerp.
+
+#### Stap 3: Gebruik de beschikbare VM’s
+
+**Wat te doen:**
+1. Start VM1 (Windows Server 2019 - machine: SRV001).
+2. Start VM2 (Windows 10 Werkstation - machine: PC008).
+
+**Doel:**
+Het doel van deze stap is om de benodigde virtuele machines op te starten en ervoor te zorgen dat ze correct zijn geconfigureerd.
+
+#### Stap 4: Voer de stappen uit op PC008
+
+**Wat te doen:**
+1. Log in op PC008 als Administrator op domein Amerjack.nl.
+2. Open Visual Studio Code of IDLE en open het script.
+3. Bouw het programma op PC008 en zorg ervoor dat alle paden correct zijn ingesteld met de `appPath` variabele.
+
+**Doel:**
+Het doel van deze stap is om het script correct uit te voeren en te testen op de VM PC008.
+
+#### Stap 5: Documenteer de stappen
+
+**Wat te doen:**
+1. Voeg duidelijke comments toe aan je code om elke stap te beschrijven.
+2. Zorg ervoor dat de comments beschrijven wat de code doet en waarom.
+
+**Doel:**
+Het doel van deze stap is om ervoor te zorgen dat de code goed gedocumenteerd en leesbaar is voor anderen.
+
+#### Stap 6: Maak screenshots
+
+**Wat te doen:**
+1. Documenteer je script met screenshots volgens Bijlage 2.1 Sjabloon verslag script.
+2. Voeg de screenshots toe aan je verslag.
+
+**Doel:**
+Het doel van deze stap is om een visuele documentatie van je script te hebben, wat kan helpen bij de beoordeling en eventuele troubleshooting.
+
+### Resultaat
+
+**Als resultaat van deze opdracht lever je de volgende producten op:**
+1. **Een overzicht van de processen die geautomatiseerd kunnen worden** op basis van Bijlage 2.3 Procesbeschrijvingen.
+2. **Een script op PC008** waarin alle eisen uit het vastgestelde ontwerp zijn verwerkt, voorzien van comments.
+3. **Een verslag met screenshots van het script** op basis van Bijlage 2.1 Sjabloon verslag script.
+
+### Opdracht 3: Database en SQL
+
+#### Processtappen:
+
+1. **Start SRV001 en daarna PC008.**
+   - Log in op PC008 als Administrator op domein Amerjack.nl.
+   - Start MySQL Workbench op PC008 en verbind met de server. Het wachtwoord van Root is P@ssw0rd.
+
+2. **Beheer database:**
+   - In de database Poortwachter is een gebruiker aangemaakt onder de naam Kandidaat.
+   - Zorg ervoor dat de gebruiker vanaf elke host uitsluitend selects en inserts mag uitvoeren.
+   - Maak een screenshot van de aanpassingen en neem die op in je verslag. Maak hiervoor gebruik van Bijlage 3.3 Sjabloon verslag SQL.
+
+3. **Query’s maken:**
+   - Je maakt als gebruiker (root) de query’s in de WorkBench. Elke query zet je op een apart SQL-tabblad.
+   - Voer de opdrachten uit zoals gespecificeerd in de opdracht.
+
+### Uitwerking van de Processtappen
+
+#### Stap 1: Start SRV001 en daarna PC008
+
+**Wat te doen:**
+1. Start VM1 (SRV001) en VM2 (PC008).
+2. Log in op PC008 als Administrator op domein Amerjack.nl.
+3. Start MySQL Workbench op PC008 en verbind met de server.
+
+**Doel:**
+Het doel van deze stap is om de virtuele machines en de MySQL Workbench gereed te maken voor het uitvoeren van de opdrachten.
+
+#### Stap 2: Beheer database
+
+**Wat te doen:**
+1. Open MySQL Workbench op PC008.
+2. Maak de gebruiker Kandidaat aan in de database Poortwachter.
+3. Zorg ervoor dat de gebruiker vanaf elke host uitsluitend selects en inserts mag uitvoeren.
+4. Maak een screenshot van deze aanpassingen en voeg deze toe aan je verslag.
+
+**Doel:**
+Het doel van deze stap is om de juiste gebruikersrechten in te stellen en deze instellingen te documenteren.
+
+#### Stap 3: Query’s maken
+
+**Wat te doen:**
+1. Maak de volgende query’s in MySQL Workbench en sla ze op in aparte SQL-tabbladen:
+   - Laat een query zien die alle velden van tabel GescandeData toont.
+   - Laat een query zien die de velden Kenteken en Merk uit tabel GescandeData toont.
+   - Laat een query zien die de velden Kenteken, Merk en Cilinderinhoud uit tabel RDW toont waarbij de Cilinderinhoud groter is dan 2000.
+   - Laat een query zien die de velden Kenteken en Merk uit tabel GescandeData toont waarvan het kenteken niet in de tabel RDW te vinden is.
+   - Doe een SQL-insert van het kenteken ISZN01, het merk Suzuki en de handelsbenaming Alto Scantest in tabel GescandeData.
+   - Laat via een query de velden Kenteken en Merk uit tabel RDW zien waarbij de Cilinderinhoud meer is dan de gemiddelde Cilinderinhoud van alle auto’s (waarbij de gemiddelde Cilinderinhoud natuurlijk in de query berekend moet worden).
+
+**Doel:**
+Het doel van deze stap is om de nodige query’s te maken die voldoen aan de opdrachtvereisten en om deze query’s te documenteren.
+
+### Resultaat
+
+**Als resultaat van deze opdracht lever je de volgende producten op:**
+1. **De juiste toegangsrechten in de MySQL-server voor gebruiker Kandidaat.**
+2. **In de Workbench op PC008 de zes query’s in de tabbladen opgeslagen.**
+3. **Een verslag met de genoemde screenshots.**
+
+Volg deze stappen nauwkeurig om ervoor te zorgen dat je voldoet aan de exameneisen. Laat me weten als je verdere hulp nodig hebt!
